@@ -1,10 +1,5 @@
 {
   "private": true,
-  "name": "@esun/monorepo",
-  "version": "0.0.1",
-  "workspaces": [
-    "packages/*"
-  ],
   "packageManager": "pnpm@7.6.0",
   "author": "dingxyang <https://github.com/dingxyang>",
   "license": "MIT",
@@ -34,7 +29,7 @@
     "pre-commit": "npx lint-staged"
   },
   "lint-staged": {
-    "*.{js,ts,tsx,vue,md}": [
+    "*.ts": [
       "eslint --fix"
     ]
   }
