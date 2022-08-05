@@ -1,5 +1,5 @@
-/node_modules
-/dist
+node_modules
+dist
 .DS_Store
 .turbo
 *.tsbuildinfo
@@ -7,5 +7,4 @@
 /coverage
 .vscode
 
-/packages/*/node_modules
-/packages/*/dist
+.changeset
