@@ -1,5 +1,5 @@
-import { haha } from './index';
+import { haha } from "./index";
 
-test('normal', () => {
-  expect(haha()).toBeNull();
+test("normal", () => {
+  expect(haha()).toEqual(5);
 });
