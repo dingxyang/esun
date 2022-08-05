@@ -1,5 +1,6 @@
 {
   "private": true,
+  "name": "esun",
   "packageManager": "pnpm@7.6.0",
   "author": "dingxyang <https://github.com/dingxyang>",
   "license": "MIT",
