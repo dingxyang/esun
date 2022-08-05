@@ -1,7 +1,7 @@
 {
-  "name": "esun",
+  "name": "@esun/hooks",
   "version": "0.0.1",
-  "description": "esun",
+  "description": "@esun/hooks",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -9,5 +9,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "esun": "workspace:^0.0.1"
+  }
 }

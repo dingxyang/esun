@@ -1,8 +1,9 @@
 {
   "private": true,
-  "name": "esun",
+  "name": "root",
   "scripts": {
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "test": "jest"
   },
   "devDependencies": {
     "@types/jest": "^28.1.6",
