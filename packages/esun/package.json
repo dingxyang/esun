@@ -1,0 +1,13 @@
+{
+  "name": "esun",
+  "version": "0.0.1",
+  "description": "esun",
+  "main": "dist/index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "father build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

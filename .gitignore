@@ -1,0 +1,11 @@
+/node_modules
+/dist
+.DS_Store
+.turbo
+*.tsbuildinfo
+.jest-cache
+/coverage
+.vscode
+
+/packages/*/node_modules
+/packages/*/dist
