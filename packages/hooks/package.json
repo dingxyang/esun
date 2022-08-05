@@ -11,6 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "esun": "workspace:^0.0.1"
+    "@esun/core": "workspace:^0.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

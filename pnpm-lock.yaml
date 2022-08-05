@@ -34,11 +34,17 @@ importers:
       ts-node: 10.9.1_@types+node@17.0.45
       turbo: 1.4.2
 
+  packages/core:
+    specifiers: {}
+
+  packages/esun:
+    specifiers: {}
+
   packages/hooks:
     specifiers:
-      esun: workspace:^0.0.1
+      '@esun/core': workspace:^0.0.1
     dependencies:
-      esun: link:../esun
+      '@esun/core': link:../core
 
 packages:
 

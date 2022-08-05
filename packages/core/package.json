@@ -1,7 +1,7 @@
 {
-  "name": "esun",
+  "name": "@esun/core",
   "version": "0.0.1",
-  "description": "esun",
+  "description": "@esun/core",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
